@@ -24,6 +24,7 @@ It will also cover the cleaning and manipulation of the data as will be deemed n
 The dataset has 57730 rows and 23 columns
 
 Distribution of our target variable, 'Arrest Flag':
+
 ![alt text](/Assets/arrest%20flag%20output.png "Arrest Flag distribution")
 
 The classes are imbalanced, and this should be taken into consideration during the modelling process.
@@ -78,6 +79,7 @@ We now try a decision tree algorithm to try and get a better model for our probl
 ![alt text](/Assets/model%204%20results.png "Arrest Flag distribution")
 
 The model performs fairly similar to the base logistic regression model. For our next model, we try tuning max_depth to see if we can get the model to perform better. We end up with 23 as the depth but a slightly worse performing model as follows:
+
 ![alt text](/Assets/model%205%20results.png "Arrest Flag distribution")
 
 For the final model, we end up with one that predicts none of cases as arrests, so we do not consider it. 
